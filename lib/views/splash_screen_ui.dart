@@ -1,3 +1,5 @@
+// ignore_for_file: must_call_super
+
 import 'package:flutter/material.dart';
 import 'package:flutter_body_health_calculator_app/views/home_ui.dart';
 
@@ -34,8 +36,11 @@ class _SplashScreenUiState extends State<SplashScreenUi> {
       body: Center(
         child: Column(
           children: [
+            SizedBox(
+              height: 50.0,
+            ),
             Image.asset(
-              'assets/images/calculator.png',
+              'assets/images/C123.png',
               width: MediaQuery.of(context).size.width * 0.50,
               height: MediaQuery.of(context).size.width * 0.50,
               fit: BoxFit.cover,
