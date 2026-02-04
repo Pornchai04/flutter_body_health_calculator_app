@@ -148,7 +148,6 @@ class _BmrUiState extends State<BmrUi> {
             ),
             const SizedBox(height: 24),
 
-            // Calculate Button
             ElevatedButton(
               onPressed: _calculateBMR,
               style: ElevatedButton.styleFrom(
